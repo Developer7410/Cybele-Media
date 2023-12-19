@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!------Bootstrap CDNs-->
+    <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css">
+
+    <!----Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+<!---Font awsome Icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+ 
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>    <!---Font awsome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  
+  <!-----AOS library-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!----Logo Carousel-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+ <!----Favicon-->
+ <link rel="icon" type="image/x-icon" href="images/mainlogoo.png">
+
+
+ <style>
+  a.button {
+    margin: px;
+    font-size: 15px;
+    padding: px;
+    border-radius: 8px;
+    transition-duration: 2s;
+  transition-duration: 1s;
+   transition-timing-function: linear;
+  
+}
+@media (max-width:992px) and (min-width:768px){
+  a.button{
+    font-size: 14px;
+    padding: 7px;
+  }
+}
+
+
+.form-control:focus {
+			box-shadow: none;
+		}
+    
+.arrow {
+    color: #fff;
+    margin: 1em 0;
+
+    &::after {
+        display: inline-block;
+        padding-left: 8px;
+        content: "\0279E"; 
+        -webkit-transition: transform 0.3s ease-out;
+        -moz-transition: transform 0.3s ease-out;
+        -ms-transition: transform 0.3s ease-out;
+        -o-transition: transform 0.3s ease-out;
+        transition: transform 0.3s ease-out;
+    }
+
+    &:hover {
+        color: var(--bg-color);
+        /* background-color:var(--bg-color); */
+
+        &::after {
+            -webkit-transform: translateX(4px);
+            -moz-transform: translateX(4px);
+            -ms-transform: translateX(4px);
+            -o-transform: translateX(4px);
+            transform: translateX(4px);
+        }
+    }
+}
+
+  </style>
+
+</head>
+<body>
+    
+    <!----hero Section and Navbar-->
+   <!----Left Logo ------->
+   <div class="left-logo" style="position:fixed;background-color:; z-index:9999999;">
+    <a href="index.html">
+    <img src="images/mainlogoo.png" class="img-fluid leftlogoimg" alt="">
+  </a> 
+  </div>
+  
+  
+  
+    <section class="showcase">
+      <header>
+        <nav class="navbar navbar-expand-lg" id="black">
+  <div class="container-fluid d-flex justify-content-end">
+            
+   
+    <div class="row ">
+
+      <a class="d-lg-none d-block float-end" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+      aria-controls="offcanvasTop">
+      
+      <div class="three col">
+        <div class="hamburger">
+          
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel"
+  style="height:100vh; width:100%; z-index:99999;">
+  <div class="offcanvas-header">
+
+    <a class="main-logo ps-md-5 ps-2" href="#">
+   <span class="logo4"></span> 
+   </a>
+    <button type="button" class="btn-close text-reset pe-5 pt-4" data-bs-dismiss="offcanvas"
+      aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body" style="margin:0px !important; padding:0px;">
+
+
+
+    <div class="d-lg-none d-block mt-3">
+
+
+
+      <a href="index.html" class="dropdown-btn pt-5" style="padding:0px 35px; font-size: 15px;">Home
+        <!-- <i class="fa fa-caret-down"></i> -->
+      </a>
+
+      <div class="d-lg-none d-block mt-3">
+
+        <button class="dropdown-btn mt-5" style="padding:0px 35px; font-size: 15px;">Services
+          <i class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-container" style="margin-top:20px !important; background-color: #f3f5fa; padding:20px 75px; height: 220px;">
+          
+          <table class="table">
+
+            <tr>
+
+
+              <td style="border:none;"><a href="services.html" class="canvashover">Web Development</a></td>
+              <td style="border:none;"> <a href="services.html" class="canvashover">Digital Marketinng</a></td>
+              
+            
+
+            </tr>
+            <tr>
+
+              <td style="border:none;"><a href="services.html" class="canvashover">UI/UX Design</a></td>
+              
+              <td style="border:none;"><a href="services.html" class="canvashover">E-Commerce Sites</a></td>
+
+            </tr>
+            
+              <tr>
+              
+
+            
+           
+
+              <td style="border:none;"> <a href="services.html" class="canvashover">Digital Branding and Communcitation</a></td></tr>
+          
+             
+            
+            
+            
+        
+
+            <tbody>
+
+
+          </table>
+        </div>
+
+        </div>
+
+    
+
+      <a href="successstories.html" class="dropdown-btn pt-5" style="padding:0px 35px; font-size: 15px;">Success Stories
+        <!-- <i class="fa fa-caret-down"></i> -->
+      </a>
+
+      <a href="aboutus.html" class="dropdown-btn pt-5" style="padding:0px 35px; font-size: 15px;">About Us
+        <!-- <i class="fa fa-caret-down"></i> -->
+      </a>
+
+      <a href="contact.html" class="dropdown-btn pt-5" style="padding:0px 35px; font-size: 15px;">Contact Us
+        <!-- <i class="fa fa-caret-down"></i> -->
+      </a>
+
+
+
+
+
+
+
+      </tbody>
+      </table>
+    </div>
+  
+
+   
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+  
+            <div class="collapse navbar-collapse  mx-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav veticalnavbar">
+  
+                <li class="nav-item">
+                 <a href="index.html" class=" nav-link">Home</a>
+                  </a>
+                  
+                </li>
+               
+                <!-- <li class="nav-item animal" id="clicknavs">
+                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+           
+                   
+                
+
+             
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:transparent; border:none;">
+                    <div class="container-fluid drops" style="position: fixed; left:0;top:50px; background-color: #560BAD ;" >
+                      <div class="row py-5">
+                        <div class="col-3 px-5 py-4 " style="border-right: 1px solid #ffffff83;">
+                          <ul class="p-2"> 
+                            <li class="p-2 navheader1" id="navbtn1"> <a href="services.html" class="dropanchor">DIGITAL MARKETING</a> </li>
+                            <li class="p-2 mt-2 navheader2" id="navbtn2"> <a href="services.html" class="dropanchor ">UI/UX DESIGN</a> </li>
+                            <li class="p-2 mt-2 navheader3" id="navbtn3"> <a href="services.html" class="dropanchor ">ECOMMERCE SITES</a> </li>
+                            <li class="p-2 mt-2 navheader4" id="navbtn4"> <a href="services.html" class="dropanchor ">WEB DEVELOPMENT</a> </li>
+                            <li class="p-2 mt-2 navheader5" id="navbtn5"> <a href="services.html" class="dropanchor ">BRANDING, EVENTS AND PR</a> </li>
+                          </ul>
+                        </div>
+                        <div class="col-9" id="navpara1">
+                          <div class="container">
+                            <div class="row pt-4">
+                              <h2  class="dropanchor" style="font-size: 28px;">  DIGITAL MARKETING</h2>
+                              <hr style="border: 1px solid #ffffff83;">
+                            </div>
+                            <div class="row">
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "> 
+                                    <img src="images/icons/SOCIAL-MEDIA-MARKETING.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">  SOCIAL MEDIA DEVELOPMENT(SMM)</a> </li>
+                                  <li class="p-2 mt-2 "> 
+                                    
+                                    <img src="images/icons/seo.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                  
+                                    <a href="services.html" class="dropanchor hover-footer ps-2"> SEARCH ENGINE OPTIMIZATION(SEO)</a> </li>
+                                  <li class="p-2 mt-2"> 
+                                    <img src="images/icons/CONTENT-MARKETING.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">  CONTENT MARKETING</a> </li>
+                                 
+                                  
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  
+                                  <li class="p-2 "> 
+                                    <img src="images/icons/conversation.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                  
+                                    <a href="services.html" class="dropanchor hover-footer ps-2"> CONVERSION RATE OPTIMIZATION(CRO)</a> </li>
+                                  <li class="p-2 mt-2"> 
+                                    <img src="images/icons/map.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">    ONLINE REPUTATION MANAGEMENT</a> </li>
+                                  <li class="p-2 mt-2"> 
+                                    <img src="images/icons/EMAIL-MARKETING.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">ONLINE TRANSLATONS SERVICES</a> </li>
+                                 
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2"> <img src="images/icons/pay.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">  PAY PER CLICK(PPC)</a> </li>
+                                  <li class="p-2 mt-2 "> 
+                                    <img src="images/icons/EMAIL-MARKETING.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2">EMAIL MARKETING</a> </li>
+                                
+                                  
+                                </ul>
+                              </div>
+                
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-8" id="navpara2">
+                          <div class="container">
+                            <div class="row pt-4">
+                              <h2  class="dropanchor" style="font-size: 28px;">UI/UX DESIGN</h2>
+                              <hr style="border: 1px solid #ffffff83;">
+                            </div>
+                            <div class="row">
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2"> <img src="images/icons/PSD-TO-RESPONSIVE-HTML.svg" alt=""style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">  PSD TO RESPONSIVE HTML</a> </li>
+                                  <li class="p-2 mt-2 "> 
+                                    <img src="images/icons/d.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> UX DESIGN</a> </li>
+                                  <li class="p-2 mt-2"> <img src="images/icons/GRAPHIC-DESIGN.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2"> GRAPHIC DESIGN</a> </li>
+                                  
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "><img src="images/icons/UX-DESIGN-WORKSHOP.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">  UX DESIGN WORKSHOP</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/LANDING-PAGE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">   LANDING PAGE DESIGN </a> </li>
+                                                  </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "> <img src="images/icons/UX-AUDIT.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">  RESPONSIVE WEB DESIGN </a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/GRAPHIC-DESIGN.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">   UX AUDIT</a> </li>
+                                 
+                                </ul>
+                              </div>
+                
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-8" id="navpara3">
+                          <div class="container">
+                            <div class="row pt-4">
+                              <h2  class="dropanchor" style="font-size: 28px;">E-COMMERCE DEVELOPMENT</h2>
+                              <hr style="border: 1px solid #ffffff83;">
+                            </div>
+                            <div class="row">
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "> <img src="images/icons/WOO-COMMERCE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">   WOO COMMERCE DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/MIRAKL-DEVELOPMENT.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> BIG COMMERCE DEVELOPMENT</a> </li>
+                                  
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "> <img src="images/icons/MAGENTO-ECOMMERCE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2"> MIRAKL DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/SHOPIFY-ECOMMERCE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">SHOPIFY DEVELOPMENT</a> </li>
+                                  
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "><img src="images/icons/WOO-COMMERCE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2"> MAGENTO DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/SHOPIFY-ECOMMERCE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">SHOPIFY PLUS DEVELOPMENT</a> </li>
+                                 
+                                </ul>
+                              </div>
+                
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-8" id="navpara4">
+                          <div class="container">
+                            <div class="row pt-4">
+                              <h2  class="dropanchor" style="font-size: 28px;">WEB DEVELOPMENT</h2>
+                              <hr style="border: 1px solid #ffffff83;">
+                            </div>
+                            <div class="row">
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "><img src="images/icons/WORDPRESS.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">  <a href="services.html" class="dropanchor hover-footer ps-2"> WORDPRESS DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/ENTERPRISE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> DIGITAL MARKETING</a> </li>
+                                  <li class="p-2 mt-2"> 
+                                    <img src="images/icons/SITECORE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2">SITECORE DEVELOPMENT</a> </li>
+                                  
+                                  <li class="p-2 mt-2 "> <img src="images/icons/IBEXA.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2">IBEXA DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/ANGULARJS.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">  ANGULAR DEVELOPMENT</a> </li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "><img src="images/icons/JOOMLA.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">  <a href="services.html" class="dropanchor hover-footer ps-2">SHAREPOINT DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> 
+                                    <img src="images/icons/PHP.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> PHP DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2"> <img src="images/icons/CMS.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> CMS DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2"> <img src="images/icons/laravel.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2">LARAVEL DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/WEBSITE-MAINTENANCE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2">WEBSITE MAINTENANCE SERVICES</a> </li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "> <img src="images/icons/ENTERPRISE (1).svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2">ENTERPRISE DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/JOOMLA.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> JOOMLA DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2"> <img src="images/icons/DRUPAL.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> DRUPAL DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2"> <img src="images/icons/python.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> PYTHON DEVELOPMENT</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/WEBSITE-MAINTENANCE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"> <a href="services.html" class="dropanchor hover-footer ps-2"> WHATSAPP INTEGRATION</a> </li>
+                                </ul>
+                              </div>
+                
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-8" id="navpara5">
+                          <div class="container">
+                            <div class="row pt-4">
+                              <h2  class="dropanchor" style="font-size: 28px;">BRANDING, EVENTS AND PR</h2>
+                              <hr style="border: 1px solid #ffffff83;">
+                            </div>
+                            <div class="row">
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  <li class="p-2 "> <img src="images/icons/COMPANY-PROFILE-&-BROCHURE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"><a href="services.html" class="dropanchor hover-footer ps-2">PRESS RELEASE</a> </li>
+                                  <li class="p-2 mt-2 "> <img src="images/icons/PACKAGING.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">MEDIA KIT</a> </li>
+                                    <li class="p-2 mt-2"> <img src="images/icons/COMPANY-PROFILE-&-BROCHURE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"><a href="services.html" class="dropanchor hover-footer ps-2">CORPORATE EVENTS</a> </li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                 
+                                  <li class="p-2"> <img src="images/icons/PACKAGING.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;">
+                                    <a href="services.html" class="dropanchor hover-footer ps-2">PACKAGING DESIGN</a> </li>
+                                    <li class="p-2 mt-2"> <img src="images/icons/COMPANY-PROFILE-&-BROCHURE.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"><a href="services.html" class="dropanchor hover-footer ps-2">COMPANY PROFILE BROCHURE</a> </li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <ul class="p-2"> 
+                                  
+                                  <li class="p-2"> <img src="images/icons/LOGO.svg" alt="" style="width:20px; height: 20px; border-radius: 4px; border: 4px solid #fff;"><a href="services.html" class="dropanchor hover-footer ps-2">LOGO DESIGN</a> </li>
+                                  
+                                  
+                                </ul>
+                              </div>
+                              
+                
+                            </div>
+                          </div>
+                        </div>
+                
+                
+                      </div>
+                      </div>
+                 
+                  </ul>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="successstories.html">Success Stories</a>
+                </li>
+                
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact Us</a>
+                   </a>
+                   
+                 </li>
+                
+                
+                
+                
+             
+              </ul>
+              
+            </div>
+           
+          </div>
+       </div>
+       <div class="right-logo" style="height:100%;">
+        <a href="getquote.html" class="right-btn1 d-lg-block d-none ">Speak to and Expert</a>
+        <a data-number="+33(0)745670258" data-message="Hi!" class="right-btn2 d-lg-block d-none w3-button"><i class="fa-brands fa-whatsapp" style="font-size: 30px;"></i></a>
+        <a href="tel:+33(0)745670258" class="right-btn3 d-lg-block d-none"><i class="fa-solid fa-phone" style="font-size:25px;"></i></a>
+       </div>  
+      </nav>
+        
+  
+  
+  
+        <!-- <div class="toggle"></div> -->
+      </header>
+      <div class="main-hero bottom" style="margin:0px;padding:0px;overflow:hidden;">
+        <!-- <iframe src="https://player.vimeo.com/video/771916988?h=d7bec5dce4&amp;background=1"  frameborder="0" 
+        marginheight="0" 
+        marginwidth="0" 
+        width="100%" 
+        height="100%" 
+        scrolling="auto"
+        ></iframe> -->
+      <video src="images/Final.mp4" autoplay muted loop style="bottom:0; position:absolute;" >
+        </video>
+        <!-- <video width="320" height="240" controls autoplay="autoplay">
+          <source src="images/Final.mp4" type="video/mp4">
+          <source src="images/final.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+       -->
+     
+      
+        </div>
+        <div class="container-md" >
+          <div class="row hero-row" >
+            <div class="col-md-5 col-12  first-hero">
+              <p style="color:#fff !important; ">
+                We successfully convert your ideas into a reality.  At Cybele Media, we provide you with all the talents and skills to achieve your goals. We work with qualified and specialized professionals in each field of marketing to offer you a wide range of resources and services. Our comprehensive approach encompasses everything from identifying ideal goals to creating a well-thought-out strategy that increases website traffic and your brand’s visibility. Perfection is our ultimate goal.
+
+
+
+              </p>
+                <a class="button arrow herotalk">Let's talk</a>
+            
+            </div>
+            <div class="col-md-7 col-12 second-hero">
+            <h1 class="main-heroheading">
+              <span style="color:var(--bg-color);">
+FOCUS INSPIRE
+</span>
+<span class="float-md-end">CONNECT DELIVER</span>
+
+            </h1>
+            </div>
+          </div>
+        </div>
+
+   
+      
+      
+    </section>
+
+    <!----Services Section-->
+    
+<section class=" serviesss services-section">
+  <div class="container-fluid d-md-block d-none" >
+    <div class="row px-5 py-lg-3 py-3">
+      <div class="col-xl-8 col-12 px-lg-5 px-0 pt-5">
+      <h3 class="massive"> Services</h3>
+      </div>
+    </div>
+    <div class="row px-lg-5 px-0 pb-5">
+      <div class="col-md-5 px-5 py-lg-5 py-3">
+        <div class=" ps-xl-5 px-2 py-1 " id="btnss1" >
+          <h5 class="">
+            <p class="service-hover">Creative Animated Videos</p>
+          </h5>
+           </div>
+           
+      
+           <div class=" ps-xl-5 px-2 py-1" id="btnss2" style="cursor:pointer;">
+            <h5 style=" font-size: 20px !important;">
+              <p class="service-hover">Branding</p>
+            </h5>
+           </div>
+       
+       
+           <div class=" ps-xl-5 px-2 py-2" id="btnss3" style="cursor:pointer;">
+            <h5 style=" font-size: 20px !important;">
+              <p class="service-hover">Web Design & Web App Development</p>
+            </h5>
+           </div>
+        
+           <div class="mobileteam ps-xl-5 px-2 py-1" id="btnss4" style="cursor:pointer;">
+            <h5 style=" font-size: 20px !important;">
+              <p class="service-hover">Web Maintenance</p>
+            </h5>
+           </div>
+        
+        
+           <div class="consulting ps-xl-5 px-2 py-1" id="btnss5" style="cursor:pointer;">
+            <h5 style=" font-size: 20px !important;">
+              <p class="service-hover">Social Media Marketing</p>
+            </h5>
+           </div>
+       
+       
+           <div class="automated ps-xl-5 px-2 py-1" id="btnss6" style="cursor:pointer;">
+            <h5 style=" font-size: 20px !important;">
+              <p class="service-hover">Search Engine Optimization (SEO)</p>
+            </h5>
+           </div>
+           <div class=" ps-xl-5 px-2 py-1" id="btnss9" style="cursor:pointer;">
+            <h5 style=" font-size: 20px !important;">
+              <p class="service-hover">Social Media Marketing (SMM)</p>
+            </h5>
+           </div>
+           <div class=" ps-xl-5 px-2 py-1" id="btnss7" style="cursor:pointer;">
+            <h5 style=" font-size: 20px !important;">
+              <p class="service-hover"> Ecommerce Web Performance</p>
+            </h5>
+           </div>
+           <div class=" ps-xl-5 px-2 py-1" id="btnss8" style="cursor:pointer;">
+            <h7 style=" font-size: 18px !important;">
+              <p class="service-hover"> Email Marketing</p>
+            </h7>
+           </div>
+    
+    
+      </div>
+
+
+      <div class="aone col-md-7 px-5 pe-lg-5">
+
+        <img src="images/Creative Video.png" class="img-fluid " alt="" >
+        <p style="font-size: 14px;">
+          We manage the photography, video editing, business explainer animated videos and imagery you need to support wider brand articulation.
+        </p>
+      
+      </div>
+      <div class="atwo col-md-7 px-5 pe-lg-5">
+
+        <img src="images/services/Branding.jpg" class="img-fluid" alt="">
+        <p style="font-size: 14px;">
+          We create your complete brand identity. We assist you in every step of the design and development of your brand. From the design of a logo to the editing of your images.
+        </p>
+      </div>
+      <div class="athree col-md-7 px-5 pe-lg-5">
+
+        <img src="images/services/Webdesign and development.png" class="img-fluid" alt="">
+        <p style="font-size: 14px;">
+          We work with web developers that are on the pulse of latest industry trends and put thorough research and planning into every website development project we undertake.
+        </p>
+      </div>
+      <div class="afour col-md-7 px-5 pe-lg-5">
+
+        <img src="images/services/Web maintenance.png" class="img-fluid" alt="" style="margin-top: -70px;">
+        <p class="pt-3" style="font-size: 14px;">
+          We provide proactive maintenance to make sure your site remains ahead of the competition. Our team of experts developers are specialized in web development.
+        </p>
+      </div>
+      <div class="afive col-md-7 px-5 pe-lg-5 py-lg-5 py-3">
+
+        <img src="images/services/Social media management.png" class="img-fluid" alt="">
+        <p style="font-size: 14px;">
+          We create and manage your presence on social media channels and your e-reputation with your community.
+        </p>
+        
+      </div>
+      <div class="asix col-md-7 px-5 pe-lg-5 py-lg-5 py-3">
+
+      
+        <img src="images/services/Social media marketing.png" class="img-fluid" alt="">
+        <p class="pt-2" style="font-size: 14px;">
+          Our SEO experts will implement techniques allowing you to increase your positioning on search engines and help you generate more traffic on your website.
+        </p>
+      </div>
+      <div class="aseven col-md-7 px-5 pe-lg-5 py-lg-5 py-3">
+
+       
+        <img src="images/services/Ecommerce performance.png" class="img-fluid" alt="">
+        <p class="" style="font-size: 14px;">
+          We have worked with +150 Ecommerce brands and supported them in the development of an optimized website to guarantee the highest conversion rates.
+        </p>
+        
+      </div>
+      <div class="aeight col-md-7 px-5 pe-lg-5 py-lg-5 py-3">
+
+        
+        <img src="images/emails2.png" class="img-fluid" alt="">
+        <p class="" style="font-size: 14px;">
+          Our role is to use your existing customer data to create bespoke nurturing sequences of emailings which speak to your customer at every stage of their journey.
+        </p>
+      </div>
+      <div class="anine col-md-7 px-5 pe-lg-5 py-lg-5 py-3">
+
+        
+        <img src="images/services/Social media marketing.png" class="img-fluid" alt="">
+        <p class="" style="font-size: 14px;">
+          Do you want to establish an online presence and share your brand’s values through social media? 
+          Social media marketing is the best strategy to increase your brand awareness and establish strong relations with your clients
+          .
+        </p>
+      </div>
+      </div>
+    
+
+      
+    </div>
+
+    <div class="container-fluid d-md-none d-block" >
+      <div class="row mobileview pb-5" style="background-color: #ffff;">
+        <div class="accordion accordion-flush p-5" id="accordionFlushExample" >
+  <div class="accordion-item pb-2" >
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Creative Animated Videos
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark" style="font-size: 14px;">
+          We Manage the photography, video editing, business explainer animated videos and imagery you need to support wider brand articulation.
+          </p>
+        
+  
+    </div>
+  </div>
+  </div>
+  <div class="accordion-item pb-2">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+        Branding
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark pt-3" style="font-size: 14px;">
+    
+          We create your complete brand identity. We assist you in every step of the design and development of your brand. From the design of a logo to the editing of your images.  
+        </p>
+        
+  
+    </div>
+  </div>
+  </div>
+  
+ 
+  <div class="accordion-item pb-2">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Web Design & Web App Development      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark" style="font-size: 14px;">
+          We work with web developers that are on the pulse of latest industry trends and put thorough research and planing into every website development project we undertake.
+          </p>
+        
+  
+    </div>
+  </div>
+  </div>
+
+  <div class="accordion-item pb-2">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        Web Maintenance
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark" style="font-size: 14px;">
+          We provide proactive maintenance to make sure your site remains ahead of the competition. Our team of experts developers are specialized in web development.
+          </p>
+        
+  
+    </div>
+  </div>
+  </div>
+
+  <div class="accordion-item pb-2">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        Social Media Marketing
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark" style="font-size: 14px;">
+          We create and manage your presence on social media channels and your e-reputation with your community.
+          </p>
+        
+  
+    </div>
+  </div>
+  </div>
+
+  <div class="accordion-item pb-2">
+    <h2 class="accordion-header" id="flush-headingSix">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+        Search Engine Optimization (SEO)
+      </button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark" style="font-size: 14px;">
+          Our SEO Experts will implement techniques allowing you to increase your positioning on search engines and help you generate more traffic on your website.
+          </p>
+        
+  
+    </div>
+  </div>
+  </div>
+
+  <div class="accordion-item pb-2">
+    <h2 class="accordion-header" id="flush-headingSevent">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+        Social Media Marketing (SMM)
+      </button>
+    </h2>
+    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark" style="font-size: 14px;">
+          Do you want to establish an online presence and share your brand's values through social media? Social media marketing is the best strategy to increase your brand awareness and establish strong relations with your clients.
+          </p>
+        
+  
+    </div>
+  </div>
+  </div>
+
+
+  <div class="accordion-item pb-2">
+    <h2 class="accordion-header" id="flush-headingEight">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+        Ecommerce Web Performance
+      </button>
+    </h2>
+    <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark" style="font-size: 14px;">
+          We have worked with +150 Ecommerce brands and supported them in the development of an optimized website to guarantee the highest conversion rates.
+          </p>
+        
+  
+    </div>
+  </div>
+  </div>
+
+  <div class="accordion-item pb-2">
+    <h2 class="accordion-header" id="flush-headingNine">
+      <button class="accordion-button collapsed form-control" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+        Email Marketing
+      </button>
+    </h2>
+    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p class="text-dark" style="font-size: 14px;">
+          Our role is to use your existing customer data to create bespoke nurturing sequences of emailings, which speak to your customer at every stage of their journey.
+          </p>
+        
+  
+    </div>
+  </div>
+  </div>
+
+
+
+  </div>
+</div>
+</div>
+
+
+</section>
+<!-----Logo Section------>
+
+<section class="animated mt-md-0" data-aos="zoom-in" style="background-color: black;">
+<div class="container">
+  <!-- <h2 style=" text-align:center;
+  padding: 20px;">Our  Partners</h2> -->
+   <section class="customer-logos slider">
+      <!-- <div class="slide img-hover-zoom"><img class="logoanimation" src="images/logo1.png"></div> -->
+      <div class="slide img-hover-zoom" ><img class="logoanimation" src="images/logo2.png"></div>
+      <div class="slide img-hover-zoom"><img class="logoanimation" src="images/logo3.png"></div>
+      <div class="slide img-hover-zoom"><img class="logoanimation" src="images/logo4.png"></div>
+      <div class="slide img-hover-zoom"><img class="logoanimation" src="images/logo5.png"></div>
+      <div class="slide img-hover-zoom"><img  class="logoanimation"src="images/logo6.png"></div>
+      <div class="slide img-hover-zoom"><img class="logoanimation" src="images/logo4.png"></div>
+      <div class="slide img-hover-zoom"><img  class="logoanimation"src="images/logo3.png"></div>
+     
+   </section>
+</div>  
+</section>
+
+<!------Success Stories------>
+<div class="container-fluid ps-4 pb-5" >
+  <div class="row py-4">
+    <div class="col-12 px-lg-5 px-0"  >
+    <h3 class="mass text-center" > Success Stories</h2>
+    </div>
+  </div>
+  <div class="row">
+    
+      <div class="col-xl-3 col-md-4 col-sm-6 col-12 ">
+          <div class="card">
+              <div class="face front-face">
+                  <img src="images/1.png" class="img-fluid"
+                      alt="" class="profile" style="width:100%; height:100%;">
+                  
+              </div>
+              <div class="face back-face">
+                 
+                  <div class="testimonial">
+                    <h4 class="pt-3">Bellajoly</h4>
+                    Bellajoly is an ecommerce brand with a main focus in lingerie. They have launched an innovation: the Period Panty in Germany. 
+                  </div>
+              
+              </div>
+          </div>
+      </div>
+      <div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-sm-0 pt-3">
+        <div class="card">
+            <div class="face front-face">
+                <img src="images/3.png"
+                class="img-fluid"
+                alt="" class="profile" style="width:100%;">
+                
+            </div>
+            <div class="face back-face">
+               
+                <div class="testimonial">
+                  <h4 class="pt-3">Cannes’s Yachting Festival</h4>
+                  The Yachting Festival is in the heart of the city and it hosts an eclectic offer of nearly 650 boats, from 5 to 48 meters on-water and less than 10 meters ashore. These boats are sailing or motor, monohull or multihull, rigid or semi-rigid hull.
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-md-0 pt-sm-3 case-studies pt-3">
+      <div class="card">
+          <div class="face front-face">
+              <img src="images/4.png"
+              class="img-fluid"
+              alt="" class="profile" style="width:100%; height:100%;">
+              
+          </div>
+          <div class="face back-face">
+             
+              <div class="testimonial">
+                <h4 class="pt-3">ALBAN MULLER </h4>
+                Alban Muller has been developing formulations since 1978 composed of active ingredients contained in plants. Its research laboratories develop compositions of skincare ingredients in a real quality and transparency approach on their origin, their actions and their use in its formulations. 
+              </div>
+          
+          </div>
+      </div>
+  </div>
+  <div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-xl-0 pt-md-3 pt-sm-3 case-studies pt-3">
+    <div class="card">
+        <div class="face front-face">
+            <img src="images/6.png"
+            class="img-fluid"
+            alt="" class="profile" style="width:100%; height:100%;">
+            
+        </div>
+        <div class="face back-face">
+           
+            <div class="testimonial">
+              <h4 class="pt-3">MIDEM </h4>
+              The world of music has changed. From the first digital formats to the resurrection of live music, Midem, the leading international platform of the music industry, has been the great witness of these changes.
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+  
+  
+    
+    <div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-xl-3 pt-md-3 pt-sm-3 case-studies pt-3">
+        <div class="card">
+            <div class="face front-face">
+                <img src="images/7.png"
+                class="img-fluid"
+                alt="" class="profile" style="width:100%; height:100%;">
+                
+            </div>
+            <div class="face back-face">
+               
+                <div class="testimonial">
+                  <h4 class="pt-3">FRENCH EMBASSY</h4>
+                   
+The main purpose of the French Embassy in Israel is to strengthen the ties between France and Israel and to develop Franco-Israeli partnerships between the companies of these two countries.
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-xl-3 pt-md-3 pt-sm-3 case-studies pt-3">
+      <div class="card">
+          <div class="face front-face">
+              <img src="images/8.png"
+              class="img-fluid"
+              alt="" class="profile" style="width:100%; height:100%;">
+              
+          </div>
+          <div class="face back-face">
+             
+              <div class="testimonial">
+                <h4 class="pt-3">ROBERT HALF </h4>
+                Robert Half connects employers & jobseekers together for positions in accounting and finance, IT, HR & more. It is credited as being the world's first and largest accounting and finance staffing firm, with over 345 locations worldwide.
+              </div>
+          
+          </div>
+      </div>
+  </div>
+  <div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-xl-3 pt-md-3 pt-sm-3 case-studies pt-3">
+    <div class="card">
+        <div class="face front-face">
+            <img src="images/har.jpg"
+            class="img-fluid"
+            alt="" class="profile" style="width:100%; height:100%;">
+            
+        </div>
+        <div class="face back-face">
+           
+            <div class="testimonial">
+              <h4 class="pt-3">Haircybele </h4>
+              Haircybele is a beauty brand specialized in Haircare and they have a large range of Hair stylers. The brand is based in France. 
+            </div>
+        
+        </div>
+    </div>
+</div>
+<div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-xl-3 pt-md-3 pt-sm-3 case-studies pt-3">
+  <div class="card">
+      <div class="face front-face">
+          <img src="images/5.png"
+          class="img-fluid"
+          alt="" class="profile" style="width:100%; height:100%;">
+          
+      </div>
+      <div class="face back-face">
+         
+          <div class="testimonial">
+            <h4 class="pt-3">MEDIAMETRIE </h4>
+            Médiamétrie is a polling company, created in 1985, specializing in audience measurement and analysis of television and radio as well as cinema and Internet attendance. 
+          </div>
+      
+      </div>
+  
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<!----Animated Figure Section----->
+<section class="animated py-4" style="background-color: #570badbd;" >
+  <div class="container" >
+    <div class="row pt-sm-4  pt-2 animatedpadding">
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="figure1 d-flex justify-content-center align-items-center">
+          <span class="animated-number">5</span>
+        </div>
+        <p class="animated-text pt-2 text-center">OFFICES WORLDWIDE</p>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="figure1 d-flex justify-content-center align-items-center">
+          <span class="animated-number">180</span>
+          
+        </div>
+        <p class="animated-text pt-2 text-center">HAPPY CUSTOMERS</p>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="figure1 d-flex justify-content-center align-items-center">
+          <span class="animated-number">2019</span>
+          
+        </div>
+        <p class="animated-text pt-2 ps-2 text-center">CREATION OF THE AGENCY</p>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="figure1 d-flex justify-content-center align-items-center">
+          <span class="animated-number">+8 354</span>
+          
+        </div>
+        <p class="animated-text pt-2 ps-2 text-center">VIDEO ANIMATIONS CREATED</p>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="figure1 d-flex justify-content-center align-items-center">
+          <span class="animated-number">+259</span>
+          
+        </div>
+        <p class="animated-text pt-2  text-center">SOCIAL MEDIA ACCOUNTS MANAGED</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-----Clients Section----->
+<section >
+  <h3 class="mases ps-3 pt-4"> What Our Clients Say?</h3>
+
+  <section id="testim "  class="testim" >
+
+
+    <!--         <div class="testim-cover"> -->
+                <div class="wrap">
+    
+                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                    <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                    <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li>
+                    </ul>
+                    <div id="testim-content" class="cont">
+                        
+                        <div class="active">
+                            <div class="img"><img src="images/test1.jpg" alt=""></div>
+                            <h2>Katy Davies</h2>
+                            <p>I have worked with many design companies worldwide over the past 30 years. I would rate Cybele Media among the best. They are highly professional, attentive to my needs, and have great design skills.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="images/c2.jpeg" alt=""></div>
+                            <h2>Aman Singh</h2>
+                            <p> Really awesome working with this agency. I recommend Cybele media for any website….</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="images/test5.jpg" alt=""></div>
+                            <h2>Sara Chakraborty</h2>
+                            <p>the greatest and fastest team I've worked with to date..bill always work with the team... thanks for my website and other projects guys!!</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="images/c4.jpeg" alt=""></div>
+                            <h2>David Lemoine </h2>
+                            <p>very professional communication before, during and after the order. it's a team that has really strong skills. every wish was implemented perfectly. we can only recommend. it was perfect. Many thanks to the entire team and best regards</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="images/c5.jpeg" alt=""></div>
+                            <h2>Guillaume Meunier</h2>
+                            <p>We launched two projects with Cybele Media another for implementation. The design work was inline with my expectations and the seller made all requested revisions in a timely fashion.</p>                    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    <!--         </div> -->
+        </section>
+</section>
+<!----Faq Section-->
+<!-- <section class="frequently faqs-section" style="background-color: ;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="masesi ps-3 pt-4">Want To learn More About Our Services</h3>
+      </div>
+      <div class="col-12 p-5">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Will it be SEO friendly ?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Yeah, it will be fully SEO friendly, and we will also submit your website to all famous Search Engines too.</div>
+            </div>
+          </div>
+          <hr>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                What does a web developer do?              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Web developers create and maintain websites. They are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle. In addition, web developers may create content for the site.</div>
+            </div>
+          </div>
+          <hr>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Is web developer a future career?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">The Bureau of Labor Statistics projects that demand for Web Developers will grow 23% over the decade 2021-2031, which is much faster than the average growth rate of 5% across all careers. Many employers are eager to hire Web Developers today, with the employment rate for this career being over 94% as of 2023.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+         -->
+
+
+<section style="background-color: #B5179E;">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="masesi ps-3 pt-4 ">Contact Us</h3>
+      </div>
+    <div class="row pb-4">
+      <div class="col-md-6 ps-lg-5 pt-md-0 pt-4">
+        <div class="row g-1 ps-sm-0 ps-2">
+          
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label text-light">Name</label>
+            <input type="text" class="form-control" aria-label="First name">
+          </div>
+       <br>
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label text-light"> Email</label>
+            <input type="email" class="form-control" id="inputPassword4">
+          </div>
+         
+          <div class="col-md-12 pt-3">
+            
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1" class="text-light"> Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>           
+                 
+              
+          </div>
+          </div>
+        
+         
+          
+            <div class="col-12 pt-3">
+              <button class="main-btn " type="submit">Send Request</button>
+            </div>
+          
+          </div>
+     
+          </div>
+    </div>
+  </div>
+</section>
+  
+<footer >
+
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-5 col-lg-6 pb-3 col-12" style="background-color:var(--bg-color) !important;">
+  
+
+    <h3 class="mases ps-3 pt-4"> Design. After. Launch</h3>
+      <h4 class="text-center text-1 pt-3 pb-2">let's build a successful project together.</h4>
+      <div class=" d-flex flex-column footermedia">
+<!-- 
+        <p class=" text-2">Reac out to our team and we'll go back to you within a day</p>
+        <p class="">Address: CYBELE WORLD</p>
+        <p class="">293 boulevard saint--denis, 92400 Courbevoie, France.</p> -->
+        <ul>
+          <li class="text-2">
+            Reach out to our team and we will get back to you soon!
+                   </li>
+          <li class="text-2">
+            Address : Cybele Media
+          </li>
+          <li class="text-2">
+            293 boulevard saint-denis, 92400 Courbevoie, France.
+          </li>
+          <!-- <li class="text-2">
+            contact@Cybeleworld.com
+          </li> -->
+          
+          <li class="text-2">
+            contact@cybelemedia.com
+          </li>
+          <li class="text-2 text-light">
+            +33 (0)7 45 67 02 58
+          </li>
+          
+        
+
+        </ul>
+      </div>
+
+    </div>
+
+
+<div class="col-md-2 col-lg-2 ps-md-5 ps-0 pt-md-5 col-12 pt-3" style="background-color: #363636; color: #fff; ">
+  <div class="responsive-footer">
+
+    <h6 class="text-uppercase mb-4" style="font-weight: 700;">Overview</h6>
+    <p>
+      <a class="text-white hover-footers" href="successstories.html">Success Stories </a>
+    </p>
+    <p>
+      <a class="text-white hover-footers" href="aboutus.html">About Us</a>
+    </p>
+    <p>
+      <a class="text-white hover-footers" href="contact.html">Contact Us</a>
+    </p>
+  </div>
+ 
+</div>
+
+<div class="col-md-2 col-lg-2 pt-md-5 col-12 pt-sm-0 pt-3" style="background-color: #363636;">
+  <div class="responsive-footer">
+  <h6 class="text-uppercase mb-4" style="font-weight: 700; color:#fff;">
+    BRING VALUE TO YOUR BRAND
+  </h6>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Branding</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Creative Animated Videos</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">
+      Social Media Marketing</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Corporate Events</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Press relations</a>
+  </p>
+  </div>
+</div>
+
+
+<div class="col-md-3 col-lg-2 pt-md-5 col-12 pt-sm-0 pt-3 pb-sm-0 pb-5" style="background-color: #363636;">
+  <div class="responsive-footer">
+  <h6 class="text-uppercase mb-4" style="font-weight: 700; color:#fff;">
+    GENERATE NEW LEADS
+  </h6>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Webdesign & Web App Development</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Web Maintenance</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Ecommerce Web Performance</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Email Marketing</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">Social Media Marketing</a>
+  </p>
+  <p>
+    <a class="text-white hover-footers" href="services.html">SEO</a>
+
+  </p>
+
+  </div>
+</div>
+
+<!-- Grid column -->
+</div>
+<!--Grid row-->
+
+
+
+
+
+
+</div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+    <div class="social-media" style="position: fixed; left:0; bottom:50px; z-index: 9;">
+      <ul>
+        <li>
+          <a href="mailto:contact@cybelemedia.com" class="social-media2"><i class="fa-solid fa-message" style="font-size:15px;"></i></a>
+        </li>
+        <li>
+          <a href="tel:+33(0)745670258" class="social-media2 mt-2 floating-wpp"><i class="fa-solid fa-phone" style="font-size:15px;"></i></a>
+        </li>
+        <a  data-number="+33(0)745670258" data-message="Hi!" class="social-media2 mt-2 w3-button"><i class="fa-brands fa-whatsapp" style="font-size: 20px;"></i>
+        </a>
+      </ul>
+    </div>
+
+    
+      <div class="container-fluid d-sm-none d-block" style="position: fixed;  bottom:0px; z-index: 9;">
+        <div class="row">
+          <div class="col-3 text-center mobilemenu1" style="border-right:1px solid #fff ;">
+            <a  data-number="+33(0)745670258" data-message="Hi!" class="w3-button"><i class="fa-brands fa-whatsapp" style="font-size: 25px;color: var(--main-color);"></i></a>
+           
+          </div>
+          <div class="col-3 text-center mobilemenu1">
+            <a href="tel:+33(0)745670258" class=""><i class="fa-solid fa-phone" style="font-size:25px; color: var(--main-color);" ></i></a>
+          </div>
+          <div class="col-6 text-center mobilemenu2">
+            <a href="getquote.html" class="" style="color:var(--main-color)">Get a Quote</a>
+          </div>
+          </div>
+
+      
+    </div>
+
+
+
+
+<!----Cursor Poiter-->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+ 
+
+<!-- <script>   
+  AOS.init(); 
+</script> -->
+
+    
+    <!-----Bootstrap Js CDN's-->
+    <script src="library/bootstrap/js/bootstrap.min.js"></script>
+    <!-------Custom Js----->
+    <script src="js/script.js"></script>
+    <!----Poper Js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+    
+        duration: 1800,
+      }
+    
+      );
+    </script>
+    <!-- <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+923054784397", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+
+            };
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>  -->
+    <!-- <script>
+      var isMobile = {
+Android: function() {
+return navigator.userAgent.match(/Android/i);
+},
+BlackBerry: function() {
+return navigator.userAgent.match(/BlackBerry/i);
+},
+iOS: function() {
+return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+},
+Opera: function() {
+return navigator.userAgent.match(/Opera Mini/i);
+},
+Windows: function() {
+return navigator.userAgent.match(/IEMobile/i);
+},
+any: function() {
+return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+}
+};
+    </script>
+    <script>
+      $(".w3-button").on("click", function()
+{
+var text = $(this).attr("data-message");
+var phone = $(this).attr("data-number");
+var message = encodeURIComponent(text);
+
+if( isMobile.any() ) {
+//mobile device
+var whatsapp_API_url = "whatsapp://send";
+$(this).attr( 'href', whatsapp_API_url+'?phone=' + phone + '&text=' + message );
+} else {
+//desktop
+var whatsapp_API_url = "https://web.whatsapp.com/send";
+$(this).attr( 'href', whatsapp_API_url+'?phone=' + phone + '&text=' + message );
+}
+});
+    </script> -->
+</body>
+</html>
